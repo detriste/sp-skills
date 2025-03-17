@@ -1,0 +1,12 @@
+div{
+    border: solid black 2px}
+     body {
+            margin: 414;
+            padding: 800;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #fff
+            
+        }
