@@ -24,6 +24,8 @@ body {
     background: linear-gradient(to bottom, #c8daff, #2c4674);
     border: 4px #2c4674;
 }
+
+
 h1 {
     font-size: 64px;
     color: #2b3a61;
@@ -71,7 +73,39 @@ margin-top: 57px;
 }
 
     
-button {
+.botao1 {
+    transition: transform 0.3s ease;
+    position: relative;
+    bottom: 20px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -775px;
+    margin-right: 35px;
+    
+    
+}
+.botao2 {
+    transition: transform 0.3s ease;
+    position: relative;
+    bottom: 20px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -775px;
+    margin-left: 35px;
+    
+    
+}
+.botao3 {
     transition: transform 0.3s ease;
     position: absolute;
     bottom: 20px;
@@ -84,7 +118,9 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 30;
-    margin-top: -820;
+    
+    
+    
 }
 
 button:hover {
