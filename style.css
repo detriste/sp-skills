@@ -1,12 +1,68 @@
-div{
-    border: solid black 2px}
-     body {
-            margin: 414;
-            padding: 800;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #fff
-            
-        }
+
+
+
+body {
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    position: relative;
+    width: 414px;
+    height: 800px;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #c8daff, #2c4674);
+    border: 4px solid black;
+}
+h1 {
+    font-size: 64px;
+    color: #2b3a61;
+    font-weight: bold;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 24px;
+    color: white;
+    margin: 10px 20px;
+}
+
+.menino {
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+}
+.garota{
+
+width: 100%;
+position: absolute;
+bottom: 70px;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    color: #2c4674;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
