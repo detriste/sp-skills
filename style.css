@@ -26,12 +26,12 @@ body {
 }
 
 
-h1 {
+.petfinder {
     font-size: 64px;
     color: #2b3a61;
-    font-weight: bold;
     margin-top: 50px;
-    font-family: 'Montserrat'
+    font-family: 'Montserrat';
+    margin-top: 30px;
 }
 h2 {
     font-size: 24px;
@@ -85,7 +85,7 @@ margin-top: 57px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -775px;
+    margin-top: -780px;
     margin-right: 35px;
     
     
@@ -102,7 +102,7 @@ margin-top: 57px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -775px;
+    margin-top: -780px;
     margin-left: 35px;
     
     
